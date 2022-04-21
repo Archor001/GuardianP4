@@ -1,0 +1,82 @@
+{
+  "target": "bmv2",
+  "p4info": "build/p4anony6.p4.p4info.txt",
+  "bmv2_json": "build/p4anony6.json",
+  "table_entries": [
+    {
+      "table": "AnonyIngress.anony_mac_src_oui_tb",
+      "match": {
+        "standard_metadata.ingress_port": [1]
+      },
+      "action_name": "AnonyIngress.nop_action",
+      "action_params": { }
+    },
+    {
+      "table": "AnonyIngress.anony_mac_src_id_tb",
+      "match": {
+        "standard_metadata.ingress_port": [1]  
+      },
+      "action_name": "AnonyIngress.hash_mac_src_id_action",
+      "action_params": { }
+    },
+    {
+      "table": "AnonyIngress.anony_mac_dst_oui_tb",
+      "match": {
+        "standard_metadata.ingress_port": [1]
+      },
+      "action_name": "AnonyIngress.nop_action",
+      "action_params": { }
+    },
+    {
+      "table": "AnonyIngress.anony_mac_dst_id_tb",
+      "match": {
+        "standard_metadata.ingress_port": [1]
+      },
+      "action_name": "AnonyIngress.hash_mac_dst_id_action",
+      "action_params": { }
+    },
+    
+    {
+      "table": "AnonyIngress.hashing_src_tb",
+      "match": {
+        "standard_metadata.ingress_port": [1]
+      },
+      "action_name": "AnonyIngress.hash_and_modify_src_action",
+      "action_params": { }
+    },
+    {
+      "table": "AnonyIngress.hashing_dst_tb",
+      "match": {
+        "standard_metadata.ingress_port": [1]
+      },
+      "action_name": "AnonyIngress.hash_and_modify_dst_action",
+      "action_params": { }
+    },
+    {
+      "table": "AnonyIngress.multicast_mac_catch_tb",
+      "match": {
+        "standard_metadata.ingress_port": [1]
+      },
+      "action_name": "AnonyIngress.multicast_mac_catch_action",
+      "action_params": { }
+    },
+    {
+      "table": "AnonyIngress.ipv6_ip_overwite_tb",
+      "match": {
+        "standard_metadata.ingress_port": [1]
+      },
+      "action_name": "AnonyIngress.ip_overwrite_action",
+      "action_params": { }
+    },
+    {
+      "table": "AnonyIngress.forward_tb",
+      "match": {
+        "standard_metadata.ingress_port": [1]
+      },
+      "action_name": "AnonyIngress.set_egr_action",
+      "action_params": { 
+        "egress_spec" : 2
+      }
+    }
+  ]
+}

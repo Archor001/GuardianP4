@@ -1,0 +1,10 @@
+18:52:22.484409 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 997: 192.168.3.131.57011 > 72.14.213.138.80: Flags [P.], seq 2542412440:2542413383, ack 2428019935, win 16288, length 943: HTTP: GET /complete/search?client=chrome&hl=en-US&q=cr HTTP/1.1
+18:52:22.514250 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 440: 72.14.213.138.80 > 192.168.3.131.57011: Flags [P.], seq 1:387, ack 943, win 947, length 386: HTTP: HTTP/1.1 200 OK
+18:52:22.708292 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 66: 192.168.3.131.55950 > 72.14.213.102.80: Flags [S], seq 1562033828, win 8192, options [mss 1460,nop,wscale 2,nop,nop,sackOK], length 0
+18:52:22.713832 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 54: 192.168.3.131.57011 > 72.14.213.138.80: Flags [.], ack 387, win 16192, length 0
+18:52:22.727058 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 66: 72.14.213.102.80 > 192.168.3.131.55950: Flags [S.], seq 2992713107, ack 1562033829, win 5720, options [mss 1430,nop,nop,sackOK,nop,wscale 6], length 0
+18:52:22.727105 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 54: 192.168.3.131.55950 > 72.14.213.102.80: Flags [.], ack 1, win 16445, length 0
+18:52:22.727459 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 998: 192.168.3.131.55950 > 72.14.213.102.80: Flags [P.], seq 1:945, ack 1, win 16445, length 944: HTTP: GET /complete/search?client=chrome&hl=en-US&q=msn HTTP/1.1
+18:52:22.747390 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 54: 192.168.3.131.55950 > 72.14.213.102.80: Flags [F.], seq 945, ack 1, win 16445, length 0
+18:52:22.748483 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 60: 72.14.213.102.80 > 192.168.3.131.55950: Flags [.], ack 945, win 119, length 0
+18:52:22.761080 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 541: 72.14.213.102.80 > 192.168.3.131.55950: Flags [P.], seq 1:488, ack 945, win 119, length 487: HTTP: HTTP/1.1 200 OK

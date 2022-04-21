@@ -1,0 +1,31 @@
+{
+  "target": "bmv2",
+  "p4info": "build/firewall.p4.p4info.txt",
+  "bmv2_json": "build/firewall.json",
+  "table_entries": [
+    {
+      "table": "MyIngress.forward_tb",
+      "match": {
+        "standard_metadata.ingress_port": [1]
+      },
+      "action_name": "MyIngress.set_egr_action",
+      "action_params": { 
+        "egress_spec" : 2
+      }
+    },
+    {
+      "table": "MyIngress.filtering_tcp_tb",
+      "match":{
+        "hdr.ipv4.srcAddr":  ["72.14.213.0","255.255.255.0"],
+        "hdr.ipv4.dstAddr":  ["192.168.3.0","255.255.255.0"],
+        "hdr.ipv4.protocol": [6],
+        "hdr.tcp.srcPort"  : [0,100],
+        "hdr.tcp.dstPort"  : [10000,60000]
+      },
+      "priority": 1,
+      "action_name": "MyIngress.drop",
+      "action_params": {
+      }
+    }
+  ]
+}

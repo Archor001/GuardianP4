@@ -1,0 +1,147 @@
+13:36:00.837204 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 997: 192.168.3.131.57011 > 72.14.213.138.80: Flags [P.], seq 2542412440:2542413383, ack 2428019935, win 16288, length 943: HTTP: GET /complete/search?client=chrome&hl=en-US&q=cr HTTP/1.1
+13:36:01.061076 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 66: 192.168.3.131.55950 > 72.14.213.102.80: Flags [S], seq 1562033828, win 8192, options [mss 1460,nop,wscale 2,nop,nop,sackOK], length 0
+13:36:01.066535 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 54: 192.168.3.131.57011 > 72.14.213.138.80: Flags [.], ack 387, win 16192, length 0
+13:36:01.079944 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 54: 192.168.3.131.55950 > 72.14.213.102.80: Flags [.], ack 2992713108, win 16445, length 0
+13:36:01.080186 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 998: 192.168.3.131.55950 > 72.14.213.102.80: Flags [P.], seq 0:944, ack 1, win 16445, length 944: HTTP: GET /complete/search?client=chrome&hl=en-US&q=msn HTTP/1.1
+13:36:01.100221 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 54: 192.168.3.131.55950 > 72.14.213.102.80: Flags [F.], seq 944, ack 1, win 16445, length 0
+13:36:01.114125 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 54: 192.168.3.131.55950 > 72.14.213.102.80: Flags [R.], seq 945, ack 488, win 0, length 0
+13:36:01.281295 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 66: 192.168.3.131.52152 > 72.14.213.147.443: Flags [S], seq 416920696, win 8192, options [mss 1460,nop,wscale 2,nop,nop,sackOK], length 0
+13:36:01.299804 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 66: 72.14.213.147.443 > 192.168.3.131.52152: Flags [S.], seq 4005169627, ack 416920697, win 5720, options [mss 1430,nop,nop,sackOK,nop,wscale 6], length 0
+13:36:01.300045 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 54: 192.168.3.131.52152 > 72.14.213.147.443: Flags [.], ack 1, win 16445, length 0
+13:36:01.300857 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 231: 192.168.3.131.52152 > 72.14.213.147.443: Flags [P.], seq 1:178, ack 1, win 16445, length 177
+13:36:01.319601 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 60: 72.14.213.147.443 > 192.168.3.131.52152: Flags [.], ack 178, win 107, length 0
+13:36:01.320994 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 1484: 72.14.213.147.443 > 192.168.3.131.52152: Flags [.], seq 1:1431, ack 178, win 107, length 1430
+13:36:01.322007 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 345: 72.14.213.147.443 > 192.168.3.131.52152: Flags [P.], seq 1431:1722, ack 178, win 107, length 291
+13:36:01.322013 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 54: 192.168.3.131.52152 > 72.14.213.147.443: Flags [.], ack 1722, win 16445, length 0
+13:36:01.325586 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 329: 192.168.3.131.52152 > 72.14.213.147.443: Flags [P.], seq 178:453, ack 1722, win 16445, length 275
+13:36:01.346729 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 280: 72.14.213.147.443 > 192.168.3.131.52152: Flags [P.], seq 1722:1948, ack 453, win 123, length 226
+13:36:01.347732 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 99: 72.14.213.147.443 > 192.168.3.131.52152: Flags [P.], seq 1948:1993, ack 453, win 123, length 45
+13:36:01.347738 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 60: 72.14.213.147.443 > 192.168.3.131.52152: Flags [.], ack 2279, win 213, length 0
+13:36:01.347742 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 54: 192.168.3.131.52152 > 72.14.213.147.443: Flags [.], ack 1993, win 16377, length 0
+13:36:01.457102 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 66: 192.168.3.131.55953 > 65.55.206.209.80: Flags [S], seq 2940642208, win 8192, options [mss 1460,nop,wscale 2,nop,nop,sackOK], length 0
+13:36:01.488600 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 440: 72.14.213.147.443 > 192.168.3.131.52152: Flags [P.], seq 1993:2379, ack 2279, win 213, length 386
+13:36:01.489553 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 1484: 72.14.213.147.443 > 192.168.3.131.52152: Flags [.], seq 2379:3809, ack 2279, win 213, length 1430
+13:36:01.489560 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 100: 72.14.213.147.443 > 192.168.3.131.52152: Flags [P.], seq 3809:3855, ack 2279, win 213, length 46
+13:36:01.489565 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 54: 192.168.3.131.52152 > 72.14.213.147.443: Flags [.], ack 3855, win 16445, length 0
+13:36:01.490916 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 1484: 72.14.213.147.443 > 192.168.3.131.52152: Flags [.], seq 3855:5285, ack 2279, win 213, length 1430
+13:36:01.490921 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 1085: 72.14.213.147.443 > 192.168.3.131.52152: Flags [P.], seq 5285:6316, ack 2279, win 213, length 1031
+13:36:01.491092 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 54: 192.168.3.131.52152 > 72.14.213.147.443: Flags [.], ack 6316, win 16445, length 0
+13:36:01.517422 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 1484: 72.14.213.147.443 > 192.168.3.131.52152: Flags [.], seq 6316:7746, ack 2279, win 213, length 1430
+13:36:01.517429 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 100: 72.14.213.147.443 > 192.168.3.131.52152: Flags [P.], seq 7746:7792, ack 2279, win 213, length 46
+13:36:01.517598 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 54: 192.168.3.131.52152 > 72.14.213.147.443: Flags [.], ack 7792, win 16445, length 0
+13:36:01.518588 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 1484: 72.14.213.147.443 > 192.168.3.131.52152: Flags [.], seq 7792:9222, ack 2279, win 213, length 1430
+13:36:01.518594 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 684: 72.14.213.147.443 > 192.168.3.131.52152: Flags [P.], seq 9222:9852, ack 2279, win 213, length 630
+13:36:01.518598 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 54: 192.168.3.131.52152 > 72.14.213.147.443: Flags [.], ack 9852, win 16445, length 0
+13:36:01.522336 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 1484: 72.14.213.147.443 > 192.168.3.131.52152: Flags [.], seq 9852:11282, ack 2279, win 213, length 1430
+13:36:01.523651 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 1484: 72.14.213.147.443 > 192.168.3.131.52152: Flags [.], seq 11282:12712, ack 2279, win 213, length 1430
+13:36:01.523660 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 198: 72.14.213.147.443 > 192.168.3.131.52152: Flags [P.], seq 12712:12856, ack 2279, win 213, length 144
+13:36:01.523664 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 54: 192.168.3.131.52152 > 72.14.213.147.443: Flags [.], ack 12856, win 16445, length 0
+13:36:01.523916 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 863: 72.14.213.147.443 > 192.168.3.131.52152: Flags [P.], seq 12856:13665, ack 2279, win 213, length 809
+13:36:01.536401 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 60: 65.55.206.209.80 > 192.168.3.131.55953: Flags [S.], seq 828418081, ack 2940642209, win 8190, options [mss 1460], length 0
+13:36:01.536570 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 54: 192.168.3.131.55953 > 65.55.206.209.80: Flags [.], ack 1, win 64240, length 0
+13:36:01.536974 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 515: 192.168.3.131.55953 > 65.55.206.209.80: Flags [P.], seq 1:462, ack 1, win 64240, length 461: HTTP: GET / HTTP/1.1
+13:36:01.548272 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 303: 192.168.3.131.52152 > 72.14.213.147.443: Flags [P.], seq 2279:2528, ack 13665, win 16242, length 249
+13:36:01.564859 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 1484: 72.14.213.147.443 > 192.168.3.131.52152: Flags [.], seq 13665:15095, ack 2279, win 213, length 1430
+13:36:01.565836 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 1484: 72.14.213.147.443 > 192.168.3.131.52152: Flags [.], seq 15095:16525, ack 2279, win 213, length 1430
+13:36:01.565979 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 173: 72.14.213.147.443 > 192.168.3.131.52152: Flags [P.], seq 16525:16644, ack 2279, win 213, length 119
+13:36:01.566019 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 54: 192.168.3.131.52152 > 72.14.213.147.443: Flags [.], ack 16644, win 16445, length 0
+13:36:01.566738 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 1484: 72.14.213.147.443 > 192.168.3.131.52152: Flags [.], seq 16644:18074, ack 2279, win 213, length 1430
+13:36:01.567653 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 1484: 72.14.213.147.443 > 192.168.3.131.52152: Flags [.], seq 18074:19504, ack 2279, win 213, length 1430
+13:36:01.567741 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 54: 192.168.3.131.52152 > 72.14.213.147.443: Flags [.], ack 19504, win 16445, length 0
+13:36:01.568395 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 1391: 72.14.213.147.443 > 192.168.3.131.52152: Flags [P.], seq 19504:20841, ack 2279, win 213, length 1337
+13:36:01.568587 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 1484: 72.14.213.147.443 > 192.168.3.131.52152: Flags [.], seq 20841:22271, ack 2279, win 213, length 1430
+13:36:01.568861 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 1484: 72.14.213.147.443 > 192.168.3.131.52152: Flags [.], seq 22271:23701, ack 2279, win 213, length 1430
+13:36:01.568930 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 131: 72.14.213.147.443 > 192.168.3.131.52152: Flags [P.], seq 23701:23778, ack 2279, win 213, length 77
+13:36:01.569091 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 54: 192.168.3.131.52152 > 72.14.213.147.443: Flags [.], ack 23778, win 16445, length 0
+13:36:01.569277 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 1298: 72.14.213.147.443 > 192.168.3.131.52152: Flags [P.], seq 23778:25022, ack 2279, win 213, length 1244
+13:36:01.572741 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 135: 72.14.213.147.443 > 192.168.3.131.52152: Flags [P.], seq 25022:25103, ack 2528, win 257, length 81
+13:36:01.572864 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 54: 192.168.3.131.52152 > 72.14.213.147.443: Flags [.], ack 25103, win 16113, length 0
+13:36:01.586712 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 87: 72.14.213.147.443 > 192.168.3.131.52152: Flags [P.], seq 25103:25136, ack 2528, win 257, length 33
+13:36:01.620489 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 999: 192.168.3.131.57011 > 72.14.213.138.80: Flags [P.], seq 943:1888, ack 387, win 16192, length 945: HTTP: GET /complete/search?client=chrome&hl=en-US&q=crai HTTP/1.1
+13:36:01.621899 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 350: 65.55.206.209.80 > 192.168.3.131.55953: Flags [P.], seq 1:297, ack 462, win 65535, length 296: HTTP: HTTP/1.1 301 Moved Permanently
+13:36:01.659508 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 60: 72.14.213.147.443 > 192.168.3.131.52152: Flags [.], ack 4468, win 347, length 0
+13:36:01.692274 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 66: 192.168.3.131.55954 > 65.55.17.37.80: Flags [S], seq 3593671793, win 8192, options [mss 1460,nop,wscale 2,nop,nop,sackOK], length 0
+13:36:01.698223 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 60: 72.14.213.147.443 > 192.168.3.131.52152: Flags [.], ack 6494, win 436, length 0
+13:36:01.708886 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 60: 65.55.17.37.80 > 192.168.3.131.55954: Flags [S.], seq 443432526, ack 3593671794, win 8190, options [mss 1460], length 0
+13:36:01.709219 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 54: 192.168.3.131.55954 > 65.55.17.37.80: Flags [.], ack 1, win 64240, length 0
+13:36:01.709265 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 653: 192.168.3.131.55954 > 65.55.17.37.80: Flags [P.], seq 1:600, ack 1, win 64240, length 599: HTTP: GET / HTTP/1.1
+13:36:01.743102 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 1514: 65.55.17.37.80 > 192.168.3.131.55954: Flags [.], seq 1:1461, ack 600, win 8190, length 1460: HTTP: HTTP/1.1 200 OK
+13:36:01.743997 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 1514: 65.55.17.37.80 > 192.168.3.131.55954: Flags [.], seq 1461:2921, ack 600, win 8190, length 1460: HTTP
+13:36:01.744098 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 54: 192.168.3.131.55954 > 65.55.17.37.80: Flags [.], ack 2921, win 64240, length 0
+13:36:01.744840 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 1514: 65.55.17.37.80 > 192.168.3.131.55954: Flags [.], seq 2921:4381, ack 600, win 8190, length 1460: HTTP
+13:36:01.744982 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 1514: 65.55.17.37.80 > 192.168.3.131.55954: Flags [.], seq 4381:5841, ack 600, win 8190, length 1460: HTTP
+13:36:01.745020 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 54: 192.168.3.131.55954 > 65.55.17.37.80: Flags [.], ack 5841, win 64240, length 0
+13:36:01.762120 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 1514: 65.55.17.37.80 > 192.168.3.131.55954: Flags [.], seq 5841:7301, ack 600, win 8190, length 1460: HTTP
+13:36:01.763012 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 1514: 65.55.17.37.80 > 192.168.3.131.55954: Flags [.], seq 7301:8761, ack 600, win 8190, length 1460: HTTP
+13:36:01.763250 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 1514: 65.55.17.37.80 > 192.168.3.131.55954: Flags [.], seq 8761:10221, ack 600, win 8190, length 1460: HTTP
+13:36:01.763287 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 54: 192.168.3.131.55954 > 65.55.17.37.80: Flags [.], ack 10221, win 64240, length 0
+13:36:01.763655 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 1514: 65.55.17.37.80 > 192.168.3.131.55954: Flags [.], seq 10221:11681, ack 600, win 8190, length 1460: HTTP
+13:36:01.764478 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 1514: 65.55.17.37.80 > 192.168.3.131.55954: Flags [.], seq 11681:13141, ack 600, win 8190, length 1460: HTTP
+13:36:01.764621 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 54: 192.168.3.131.55954 > 65.55.17.37.80: Flags [.], ack 13141, win 64240, length 0
+13:36:01.765422 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 1514: 65.55.17.37.80 > 192.168.3.131.55954: Flags [P.], seq 13141:14601, ack 600, win 8190, length 1460: HTTP
+13:36:01.765508 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 1514: 65.55.17.37.80 > 192.168.3.131.55954: Flags [.], seq 14601:16061, ack 600, win 8190, length 1460: HTTP
+13:36:01.765760 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 1514: 65.55.17.37.80 > 192.168.3.131.55954: Flags [.], seq 16061:17521, ack 600, win 8190, length 1460: HTTP
+13:36:01.765798 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 54: 192.168.3.131.55954 > 65.55.17.37.80: Flags [.], ack 17521, win 64240, length 0
+13:36:01.783390 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 1514: 65.55.17.37.80 > 192.168.3.131.55954: Flags [.], seq 17521:18981, ack 600, win 8190, length 1460: HTTP
+13:36:01.784353 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 1514: 65.55.17.37.80 > 192.168.3.131.55954: Flags [.], seq 18981:20441, ack 600, win 8190, length 1460: HTTP
+13:36:01.784568 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 1514: 65.55.17.37.80 > 192.168.3.131.55954: Flags [.], seq 20441:21901, ack 600, win 8190, length 1460: HTTP
+13:36:01.784697 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 1455: 65.55.17.37.80 > 192.168.3.131.55954: Flags [P.], seq 21901:23302, ack 600, win 8190, length 1401: HTTP
+13:36:01.784734 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 54: 192.168.3.131.55954 > 65.55.17.37.80: Flags [.], ack 23302, win 64240, length 0
+13:36:01.787891 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 132: 72.14.213.147.443 > 192.168.3.131.52152: Flags [P.], seq 25136:25214, ack 6494, win 436, length 78
+13:36:01.788943 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 1369: 72.14.213.147.443 > 192.168.3.131.52152: Flags [P.], seq 25214:26529, ack 6494, win 436, length 1315
+13:36:01.789056 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 54: 192.168.3.131.52152 > 72.14.213.147.443: Flags [.], ack 26529, win 16445, length 0
+13:36:01.817745 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 66: 192.168.3.131.55955 > 207.46.148.38.80: Flags [S], seq 690488054, win 8192, options [mss 1460,nop,wscale 2,nop,nop,sackOK], length 0
+13:36:01.822350 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 54: 192.168.3.131.55953 > 65.55.206.209.80: Flags [.], ack 297, win 63944, length 0
+13:36:01.828173 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 113: 72.14.213.147.443 > 192.168.3.131.52152: Flags [P.], seq 26529:26588, ack 6494, win 436, length 59
+13:36:01.829023 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 845: 72.14.213.147.443 > 192.168.3.131.52152: Flags [P.], seq 26588:27379, ack 6494, win 436, length 791
+13:36:01.829150 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 54: 192.168.3.131.52152 > 72.14.213.147.443: Flags [.], ack 27379, win 16232, length 0
+13:36:01.830112 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 62: 207.46.148.38.80 > 192.168.3.131.55955: Flags [S.], seq 3974155008, ack 690488055, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+13:36:01.830267 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 54: 192.168.3.131.55955 > 207.46.148.38.80: Flags [.], ack 1, win 64240, length 0
+13:36:01.830536 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 502: 192.168.3.131.55955 > 207.46.148.38.80: Flags [P.], seq 1:449, ack 1, win 64240, length 448: HTTP: GET /action/MMN_Homepage HTTP/1.1
+13:36:01.846035 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 333: 207.46.148.38.80 > 192.168.3.131.55955: Flags [FP.], seq 1:280, ack 449, win 64240, length 279: HTTP: HTTP/1.1 200 OK
+13:36:01.846191 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 54: 192.168.3.131.55955 > 207.46.148.38.80: Flags [.], ack 281, win 63961, length 0
+13:36:01.846621 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 54: 192.168.3.131.55955 > 207.46.148.38.80: Flags [F.], seq 449, ack 281, win 63961, length 0
+13:36:01.851118 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 66: 192.168.3.131.55956 > 66.235.139.121.80: Flags [S], seq 1815278486, win 8192, options [mss 1460,nop,wscale 2,nop,nop,sackOK], length 0
+13:36:01.855981 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 54: 192.168.3.131.57011 > 72.14.213.138.80: Flags [.], ack 856, win 16445, length 0
+13:36:01.867670 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 120: 192.168.3.131.52152 > 72.14.213.147.443: Flags [P.], seq 8378:8444, ack 27379, win 16232, length 66
+13:36:01.871700 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 60: 207.46.148.38.80 > 192.168.3.131.55955: Flags [.], ack 450, win 64240, length 0
+13:36:01.873833 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 66: 192.168.3.131.55957 > 65.55.5.232.80: Flags [S], seq 2391001289, win 8192, options [mss 1460,nop,wscale 2,nop,nop,sackOK], length 0
+13:36:01.874385 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 66: 192.168.3.131.55958 > 65.55.239.163.80: Flags [S], seq 1749696983, win 8192, options [mss 1460,nop,wscale 2,nop,nop,sackOK], length 0
+13:36:01.880027 8e:47:ff:2e:d8:b7 > 33:33:00:00:00:02, ethertype IPv6 (0x86dd), length 70: fe80::8c47:ffff:fe2e:d8b7 > ff02::2: ICMP6, router solicitation, length 16
+13:36:01.880355 d6:c7:ed:50:fc:16 > 33:33:00:00:00:02, ethertype IPv6 (0x86dd), length 70: fe80::d4c7:edff:fe50:fc16 > ff02::2: ICMP6, router solicitation, length 16
+13:36:01.883901 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 66: 66.235.139.121.80 > 192.168.3.131.55956: Flags [S.], seq 3948468093, ack 1815278487, win 4380, options [mss 1460,nop,wscale 0,sackOK,eol], length 0
+13:36:01.883955 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 54: 192.168.3.131.55956 > 66.235.139.121.80: Flags [.], ack 1, win 16425, length 0
+13:36:01.884324 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 1107: 192.168.3.131.55956 > 66.235.139.121.80: Flags [P.], seq 1:1054, ack 1, win 16425, length 1053: HTTP: GET /b/ss/msnportalhomepagecaen/1/H.7-pdv-2/s84495919100008?[AQB]&ndh=1&t=25%2F0%2F2011%2010%3A52%3A23%202%20480&ns=msnportal&pageName=MSN%20CanadaMSFTW&g=http%3A%2F%2Fca.msn.com%2F&r=&s=1680x1050&c=32&k=Y&bw=1680&bh=949&hp=N&ch=&server=msn.com&c1=Portal&v1=1%2F2011&c2=en-ca&v2=1%2F25%2F2011&c3=12.0&c19=Dblu%2CW1%2CQ1%2C4.0&c22=True&c29=http%3A%2F%2Fca.msn.com%2F&c4=&cc=USD&ct=lan&v=Y&j=1.3&[AQE] HTTP/1.1
+13:36:01.888379 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 60: 72.14.213.147.443 > 192.168.3.131.52152: Flags [.], ack 8378, win 526, length 0
+13:36:01.892001 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 309: 192.168.3.131.52152 > 72.14.213.147.443: Flags [P.], seq 8444:8699, ack 27379, win 16232, length 255
+13:36:01.892391 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 60: 65.55.5.232.80 > 192.168.3.131.55957: Flags [S.], seq 3981672661, ack 2391001290, win 8190, options [mss 1460], length 0
+13:36:01.892437 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 54: 192.168.3.131.55957 > 65.55.5.232.80: Flags [.], ack 1, win 64240, length 0
+13:36:01.892679 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 701: 192.168.3.131.55957 > 65.55.5.232.80: Flags [P.], seq 1:648, ack 1, win 64240, length 647: HTTP: GET /ADSAdClient31.dll?GetSAd=&DPJS=0&PN=MSFT&PG=CAE9TX&AP=1389 HTTP/1.1
+13:36:01.910919 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 60: 72.14.213.147.443 > 192.168.3.131.52152: Flags [.], ack 8699, win 570, length 0
+13:36:01.912264 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 1066: 65.55.5.232.80 > 192.168.3.131.55957: Flags [P.], seq 1:1013, ack 648, win 8190, length 1012: HTTP: HTTP/1.1 200 OK
+13:36:01.921267 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 734: 66.235.139.121.80 > 192.168.3.131.55956: Flags [P.], seq 1:681, ack 1054, win 5433, length 680: HTTP: HTTP/1.1 302 Found
+13:36:01.954228 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 60: 65.55.239.163.80 > 192.168.3.131.55958: Flags [S.], seq 1741890931, ack 1749696984, win 8190, options [mss 1460], length 0
+13:36:01.954267 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 54: 192.168.3.131.55958 > 65.55.239.163.80: Flags [.], ack 1, win 64240, length 0
+13:36:01.954545 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 632: 192.168.3.131.55958 > 65.55.239.163.80: Flags [P.], seq 1:579, ack 1, win 64240, length 578: HTTP: GET /c.gif?di=210&pi=11654&ps=10274&tp=http://ca.msn.com/ca.msn.com/default.aspxW&rf= HTTP/1.1
+13:36:01.955221 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 176: 72.14.213.147.443 > 192.168.3.131.52152: Flags [P.], seq 27379:27501, ack 8699, win 570, length 122
+13:36:01.956270 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 87: 72.14.213.147.443 > 192.168.3.131.52152: Flags [P.], seq 27501:27534, ack 8699, win 570, length 33
+13:36:01.956305 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 54: 192.168.3.131.52152 > 72.14.213.147.443: Flags [.], ack 27534, win 16193, length 0
+13:36:01.959802 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 66: 192.168.3.131.55959 > 65.55.5.231.80: Flags [S], seq 892852360, win 8192, options [mss 1460,nop,wscale 2,nop,nop,sackOK], length 0
+13:36:01.977600 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 60: 65.55.5.231.80 > 192.168.3.131.55959: Flags [S.], seq 611666840, ack 892852361, win 8190, options [mss 1460], length 0
+13:36:01.977885 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 54: 192.168.3.131.55959 > 65.55.5.231.80: Flags [.], ack 1, win 64240, length 0
+13:36:01.978096 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 703: 192.168.3.131.55959 > 65.55.5.231.80: Flags [P.], seq 1:650, ack 1, win 64240, length 649: HTTP: GET /ADSAdClient31.dll?GetSAd=&DPJS=0&PN=MSFT&PG=CAE9UT&AP=1440 HTTP/1.1
+13:36:01.997451 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 1066: 65.55.5.231.80 > 192.168.3.131.55959: Flags [P.], seq 1:1013, ack 650, win 8190, length 1012: HTTP: HTTP/1.1 200 OK
+13:36:02.002661 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 110: 72.14.213.147.443 > 192.168.3.131.52152: Flags [P.], seq 27534:27590, ack 8699, win 570, length 56
+13:36:02.003686 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 514: 72.14.213.147.443 > 192.168.3.131.52152: Flags [P.], seq 27590:28050, ack 8699, win 570, length 460
+13:36:02.003721 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 54: 192.168.3.131.52152 > 72.14.213.147.443: Flags [.], ack 28050, win 16445, length 0
+13:36:02.010072 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 66: 192.168.3.131.55960 > 206.108.207.139.80: Flags [S], seq 2585327780, win 8192, options [mss 1460,nop,wscale 2,nop,nop,sackOK], length 0
+13:36:02.016896 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 66: 192.168.3.131.55961 > 184.24.133.32.80: Flags [S], seq 690534209, win 8192, options [mss 1460,nop,wscale 2,nop,nop,sackOK], length 0
+13:36:02.019842 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 66: 206.108.207.139.80 > 192.168.3.131.55960: Flags [S.], seq 2754106271, ack 2585327781, win 5840, options [mss 1460,nop,nop,sackOK,nop,wscale 5], length 0
+13:36:02.020112 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 54: 192.168.3.131.55960 > 206.108.207.139.80: Flags [.], ack 1, win 16425, length 0
+13:36:02.020348 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 565: 192.168.3.131.55960 > 206.108.207.139.80: Flags [P.], seq 1:512, ack 1, win 16425, length 511: HTTP: GET /r?c2=3000001&d.c=gif&d.o=msnportalhomepagecaen&d.x=184063711&d.t=page&d.u=http%3A%2F%2Fca.msn.com%2F HTTP/1.1
+13:36:02.029364 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 60: 206.108.207.139.80 > 192.168.3.131.55960: Flags [.], ack 512, win 216, length 0
+13:36:02.030313 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 576: 206.108.207.139.80 > 192.168.3.131.55960: Flags [P.], seq 1:523, ack 512, win 216, length 522: HTTP: HTTP/1.1 200 OK
+13:36:02.031003 00:1a:8c:15:f9:80 > 40:61:86:9a:f1:f5, ethertype IPv4 (0x0800), length 66: 184.24.133.32.80 > 192.168.3.131.55961: Flags [S.], seq 3519670384, ack 690534210, win 5840, options [mss 1460,nop,nop,sackOK,nop,wscale 5], length 0
+13:36:02.031240 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 54: 192.168.3.131.55961 > 184.24.133.32.80: Flags [.], ack 1, win 16425, length 0
+13:36:02.033058 40:61:86:9a:f1:f5 > 00:1a:8c:15:f9:80, ethertype IPv4 (0x0800), length 758: 192.168.3.131.55961 > 184.24.133.32.80: Flags [P.], seq 1:705, ack 1, win 16425, length 704: HTTP: GET /scripts/beacon.dll?c1=2&c2=2128&c3=&c4=&c5=&c6=&c7=http%3A//ca.msn.com/&c8=MSN%20Canada%20-%20The%20home%20of%20world-class%20services%20such%20as%20Hotmail%2C%20Windows%20Live%20Messenger%2C%20and%20News%2C%20Sports%2C%20Financial%20and%20Entertainment&c9=&c10=1680x1050&rn=1295981543432 HTTP/1.1
+

@@ -1,0 +1,57 @@
+{
+  "target": "bmv2",
+  "p4info": "build/controller.p4.p4info.txt",
+  "bmv2_json": "build/controller.json",
+  "table_entries": [
+    {
+      "table": "MyIngress.forward_tb",
+      "default_action": true,
+      "action_name": "MyIngress.drop",
+      "action_params": { }
+    },
+    {
+      "table": "MyIngress.forward_tb",
+      "match": {
+        "hdr.ipv4.dstAddr": ["192.168.3.131", 32]
+      },
+      "action_name": "MyIngress.ipv4_forward",
+      "action_params": {
+        "dstAddr": "08:00:00:00:01:00",
+        "port": 2
+      }
+    },
+    {
+      "table": "MyIngress.forward_tb",
+      "match": {
+        "hdr.ipv4.dstAddr": ["72.14.213.147", 32]
+      },
+      "action_name": "MyIngress.ipv4_forward",
+      "action_params": {
+        "dstAddr": "08:00:00:00:01:00",
+        "port": 2
+      }
+    },
+    {
+      "table": "MyIngress.forward_tb",
+      "match": {
+        "hdr.ipv4.dstAddr": ["65.55.17.37", 32]
+      },
+      "action_name": "MyIngress.ipv4_forward",
+      "action_params": {
+        "dstAddr": "08:00:00:00:02:00",
+        "port": 1
+      }
+    },
+    {
+      "table": "MyIngress.forward_tb",
+      "match": {
+        "hdr.ipv4.dstAddr": ["207.46.148.38", 32]
+      },
+      "action_name": "MyIngress.ipv4_forward",
+      "action_params": {
+        "dstAddr": "08:00:00:00:02:00",
+        "port": 1
+      }
+    }
+  ]
+}
