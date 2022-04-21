@@ -1,22 +1,4 @@
-/**********************************************************************
- *  Copyright 2019 Hyojoon Kim. Princeton University.
- *
- *  Licensed under the Apache License, Version 2.0 (the "License");
- *  you may not use this file except in compliance with the License.
- *  You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- *  Unless required by applicable law or agreed to in writing, software
- *  distributed under the License is distributed on an "AS IS" BASIS,
- *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- *  See the License for the specific language governing permissions and
- *  limitations under the License.
-**********************************************************************/
-
 #include "includes/p4anony_headers.p4"    
-//流表的const_entries字段填充，FN表示匹配动作,BLOCK是匹配动作参数
-
 #define LUT(FN) {0:FN(0xe0); 1:FN(0x01); 2:FN(0xb5); 3:FN(0x91); 4:FN(0xb3); 5:FN(0x65); 6:FN(0x24); 7:FN(0x56); 8:FN(0xfd); 9:FN(0xa7); 10:FN(0xdd); 11:FN(0xf2); 12:FN(0x20); 13:FN(0x44); 14:FN(0x52); 15:FN(0x8f); 16:FN(0x92); 17:FN(0xd0); 18:FN(0x97); 19:FN(0x11); 20:FN(0x08); 21:FN(0x2f); 22:FN(0xa0); 23:FN(0x22); 24:FN(0x68); 25:FN(0x07); 26:FN(0x6e); 27:FN(0x5e); 28:FN(0xbb); 29:FN(0x73); 30:FN(0x87); 31:FN(0xaa); 32:FN(0xac); 33:FN(0x7e); 34:FN(0x71); 35:FN(0xe6); 36:FN(0x7b); 37:FN(0xa3); 38:FN(0xef); 39:FN(0x10); 40:FN(0xf1); 41:FN(0xd9); 42:FN(0x0e); 43:FN(0x9d); 44:FN(0x18); 45:FN(0x47); 46:FN(0xae); 47:FN(0x58); 48:FN(0xab); 49:FN(0x48); 50:FN(0x84); 51:FN(0x21); 52:FN(0x15); 53:FN(0xb6); 54:FN(0x29); 55:FN(0x9f); 56:FN(0xdf); 57:FN(0xf8); 58:FN(0xad); 59:FN(0xb1); 60:FN(0xf7); 61:FN(0xe8); 62:FN(0xc2); 63:FN(0xd1); 64:FN(0x05); 65:FN(0x12); 66:FN(0xf4); 67:FN(0x6a); 68:FN(0xfc); 69:FN(0xc3); 70:FN(0x4a); 71:FN(0x7d); 72:FN(0x77); 73:FN(0x6f); 74:FN(0x5c); 75:FN(0x8d); 76:FN(0x8a); 77:FN(0xa2); 78:FN(0xe5); 79:FN(0xf0); 80:FN(0xfb); 81:FN(0xd5); 82:FN(0x3e); 83:FN(0xc5); 84:FN(0x09); 85:FN(0xaf); 86:FN(0x7f); 87:FN(0xd8); 88:FN(0x8c); 89:FN(0x4f); 90:FN(0xb0); 91:FN(0x3c); 92:FN(0x81); 93:FN(0xd4); 94:FN(0x99); 95:FN(0x43); 96:FN(0x1a); 97:FN(0x1e); 98:FN(0xa4); 99:FN(0xcd); 100:FN(0xcc); 101:FN(0xe7); 102:FN(0xe4); 103:FN(0xee); 104:FN(0x61); 105:FN(0xd2); 106:FN(0x32); 107:FN(0x89); 108:FN(0xda); 109:FN(0xbf); 110:FN(0x06); 111:FN(0xcb); 112:FN(0x02); 113:FN(0x5f); 114:FN(0xc7); 115:FN(0x9c); 116:FN(0x1b); 117:FN(0x04); 118:FN(0x25); 119:FN(0x98); 120:FN(0x59); 121:FN(0x62); 122:FN(0x3d); 123:FN(0x19); 124:FN(0xfa); 125:FN(0x0f); 126:FN(0xc4); 127:FN(0xc6); 128:FN(0x2a); 129:FN(0x4b); 130:FN(0x00); 131:FN(0x50); 132:FN(0xea); 133:FN(0x60); 134:FN(0x4e); 135:FN(0xf5); 136:FN(0xb4); 137:FN(0xde); 138:FN(0x9a); 139:FN(0x45); 140:FN(0x13); 141:FN(0x26); 142:FN(0xc9); 143:FN(0x33); 144:FN(0x41); 145:FN(0x31); 146:FN(0x85); 147:FN(0x28); 148:FN(0xcf); 149:FN(0x93); 150:FN(0xf3); 151:FN(0x67); 152:FN(0x9b); 153:FN(0x83); 154:FN(0xd6); 155:FN(0x69); 156:FN(0x75); 157:FN(0xb2); 158:FN(0x0c); 159:FN(0xec); 160:FN(0x16); 161:FN(0x63); 162:FN(0x51); 163:FN(0xe9); 164:FN(0xf6); 165:FN(0x2d); 166:FN(0xce); 167:FN(0xa5); 168:FN(0xba); 169:FN(0xa6); 170:FN(0x34); 171:FN(0xd7); 172:FN(0xbc); 173:FN(0xc1); 174:FN(0x53); 175:FN(0x3b); 176:FN(0xeb); 177:FN(0x7a); 178:FN(0x5d); 179:FN(0x66); 180:FN(0x1d); 181:FN(0x38); 182:FN(0xa8); 183:FN(0x5b); 184:FN(0x35); 185:FN(0x6b); 186:FN(0x1c); 187:FN(0x78); 188:FN(0x80); 189:FN(0x2c); 190:FN(0x76); 191:FN(0x54); 192:FN(0x8b); 193:FN(0x55); 194:FN(0x42); 195:FN(0x49); 196:FN(0xd3); 197:FN(0x94); 198:FN(0x64); 199:FN(0x79); 200:FN(0xb9); 201:FN(0x2e); 202:FN(0xf9); 203:FN(0x2b); 204:FN(0x1f); 205:FN(0xbe); 206:FN(0xfe); 207:FN(0xb8); 208:FN(0x36); 209:FN(0x6c); 210:FN(0x7c); 211:FN(0x23); 212:FN(0xed); 213:FN(0x27); 214:FN(0x95); 215:FN(0x14); 216:FN(0xbd); 217:FN(0xa1); 218:FN(0x0a); 219:FN(0x03); 220:FN(0xa9); 221:FN(0x90); 222:FN(0xc0); 223:FN(0xca); 224:FN(0x9e); 225:FN(0x57); 226:FN(0x3a); 227:FN(0x72); 228:FN(0x82); 229:FN(0x37); 230:FN(0xe2); 231:FN(0x74); 232:FN(0x86); 233:FN(0xdb); 234:FN(0x3f); 235:FN(0x30); 236:FN(0xb7); 237:FN(0x0d); 238:FN(0x5a); 239:FN(0xc8); 240:FN(0x40); 241:FN(0xdc); 242:FN(0x8e); 243:FN(0x0b); 244:FN(0x17); 245:FN(0x70); 246:FN(0x39); 247:FN(0xe3); 248:FN(0x4d); 249:FN(0x6d); 250:FN(0xff); 251:FN(0x96); 252:FN(0x4c); 253:FN(0x88); 254:FN(0x46); 255:FN(0xe1); }
 #define c0 32w33751297   //02 03 01 01
 #define c1 32w16909057   //01 02 03 01
@@ -633,16 +615,14 @@ control OntasIngress(inout headers hdr,
     }
     
     apply {
-        // Needed for catching multicast packets
-        //  based on DST MAC address (starts with 01:xx:xx:xx:xx:xx)
+        // Needed for catching multicast packets based on DST MAC address (starts with 01:xx:xx:xx:xx:xx)
         multicast_mac_catch_tb.apply();
 
         // Anonymize SRC MAC
         anony_mac_src_oui_tb.apply();
         anony_mac_src_id_tb.apply();
 
-        // Only anonymize if DST MAC indicates
-        //  that it's not a broadcast or multicast packet.
+        // Only anonymize if DST MAC indicates that it's not a broadcast or multicast packet.
         if (hdr.ethernet.dstAddr_oui!=0xffffff) {
             if (hdr.ethernet.dstAddr_id!=0xffffff) {
                 if (meta.dst_mac_mc_oui!=0x010000) {
@@ -652,8 +632,7 @@ control OntasIngress(inout headers hdr,
             }
         }
 
-        // If ARP reply and DST MAC is hashed,
-        //   hash DST MAC in ARP packet too.
+        // If ARP reply and DST MAC is hashed, hash DST MAC in ARP packet too.
         if (hdr.arp.opcode == 2) {
             if (meta.hashed_mac_dstAddr_id == 1) {
                 anony_arp_mac_dst_id_tb.apply();
@@ -663,8 +642,7 @@ control OntasIngress(inout headers hdr,
             }
         }
 
-        // If SRC MAC is hashed,
-        //   hash SRC MAC in ARP packet too.
+        // If SRC MAC is hashed, hash SRC MAC in ARP packet too.
         if (meta.hashed_mac_srcAddr_id == 1) {
             anony_arp_mac_src_id_tb.apply();
         }
@@ -672,7 +650,7 @@ control OntasIngress(inout headers hdr,
             anony_arp_mac_src_oui_tb.apply();
         }
 
-        // Anoymize IPv4 SRC address (prep step)
+        // Anoymize IPv4 SRC address 
         if(anony_srcip_tb.apply().hit){
             //填充明文串
             //read_cleartext(meta.srcip_aes_part);
@@ -705,7 +683,7 @@ control OntasIngress(inout headers hdr,
         }
         
 
-        // Anoymize IPv4 DST address (prep step)
+        // Anoymize IPv4 DST address 
         if(anony_dstip_tb.apply().hit){
             //填充明文串
             read_cleartext(meta.dstip_aes_part);
@@ -738,18 +716,14 @@ control OntasIngress(inout headers hdr,
         }
         
 
-        // If ARP packet, and should anonymize IPv4, 
-        //  anonymize IP address in ARP packet.
         if (meta.is_arp == 1) {
             arp_ip_overwrite_tb.apply();
         }
 
-        // Actual IPv4 address anonymization step
         if (meta.is_ipv4 == 1) {
             ipv4_ip_overwite_tb.apply();
         }
 
-        // Forward packet based on input_port
         forward_tb.apply();
     }
 }
